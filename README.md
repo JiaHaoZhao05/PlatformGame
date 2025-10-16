@@ -1,2 +1,1 @@
 # PlatformGame
-Game development subject
