@@ -1,0 +1,6 @@
+C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/x64-windows-rel/CMakeFiles/pugixml-shared.dir
+C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/x64-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/x64-windows-rel/CMakeFiles/list_install_components.dir
+C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/x64-windows-rel/CMakeFiles/install.dir
+C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/x64-windows-rel/CMakeFiles/install/local.dir

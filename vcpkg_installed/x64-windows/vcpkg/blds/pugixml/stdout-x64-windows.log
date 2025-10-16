@@ -1,0 +1,15 @@
+Downloading https://github.com/zeux/pugixml/archive/v1.15.tar.gz -> zeux-pugixml-v1.15.tar.gz
+Successfully downloaded zeux-pugixml-v1.15.tar.gz
+-- Extracting source C:/Users/zhaoj/AppData/Local/vcpkg/downloads/zeux-pugixml-v1.15.tar.gz
+-- Using source at C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/blds/pugixml/src/v1.15-8a9beec4a5.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-windows
+-- Building x64-windows-dbg
+-- Building x64-windows-rel
+-- Fixing pkgconfig file: C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/pkgs/pugixml_x64-windows/lib/pkgconfig/pugixml.pc
+-- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.4.3-1-any.pkg.tar.zst
+-- Using cached msys2-msys2-runtime-3.6.2-2-x86_64.pkg.tar.zst
+-- Using msys root at C:/Users/zhaoj/AppData/Local/vcpkg/downloads/tools/msys2/9272adbcaf19caef
+-- Fixing pkgconfig file: C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/pkgs/pugixml_x64-windows/debug/lib/pkgconfig/pugixml.pc
+-- Installing: C:/Users/zhaoj/OneDrive/Escritorio/PlatformGame/vcpkg_installed/x64-windows/vcpkg/pkgs/pugixml_x64-windows/share/pugixml/copyright
+-- Performing post-build validation
