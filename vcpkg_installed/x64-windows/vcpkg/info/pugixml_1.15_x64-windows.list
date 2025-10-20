@@ -1,11 +1,9 @@
 x64-windows/
 x64-windows/bin/
 x64-windows/bin/pugixml.dll
-x64-windows/bin/pugixml.pdb
 x64-windows/debug/
 x64-windows/debug/bin/
 x64-windows/debug/bin/pugixml.dll
-x64-windows/debug/bin/pugixml.pdb
 x64-windows/debug/lib/
 x64-windows/debug/lib/pkgconfig/
 x64-windows/debug/lib/pkgconfig/pugixml.pc

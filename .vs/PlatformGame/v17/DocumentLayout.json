@@ -21,21 +21,20 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Map.h",
               "DocumentMoniker": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h",
               "RelativeDocumentMoniker": "src\\Map.h",
-              "ToolTip": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h*",
-              "RelativeToolTip": "src\\Map.h*",
+              "ToolTip": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h",
+              "RelativeToolTip": "src\\Map.h",
               "ViewState": "AgIAAE4AAAAAAAAAAAAAAGoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-20T11:44:31.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-10-20T11:44:31.176Z"
             },
             {
               "$type": "Document",
