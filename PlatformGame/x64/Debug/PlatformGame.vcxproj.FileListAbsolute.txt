@@ -6,3 +6,11 @@ C:\Users\zhaoj\OneDrive\Escritorio\PlatformGame\x64\Debug\jpeg62.dll
 C:\Users\zhaoj\OneDrive\Escritorio\PlatformGame\x64\Debug\libpng16d.dll
 C:\Users\zhaoj\OneDrive\Escritorio\PlatformGame\x64\Debug\zlibd1.dll
 C:\Users\zhaoj\OneDrive\Escritorio\PlatformGame\PlatformGame\x64\Debug\Platform.4970EBBF.Up2Date
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\SDL3.dll
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\box2dd.dll
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\pugixml.dll
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\SDL3_image.dll
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\jpeg62.dll
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\libpng16d.dll
+C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\zlibd1.dll
+C:\Users\jiazd\Desktop\PlatformGame\PlatformGame\x64\Debug\Platform.4970EBBF.Up2Date

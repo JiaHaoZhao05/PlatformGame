@@ -36,6 +36,18 @@ struct Properties
         return nullptr;
     }
 };
+struct ObjectGroup {
+    int id;
+    std::string name;
+    struct Object {
+        int id = 0;
+        int x = 0;
+        int y = 0;
+        int width = 0;
+        int height = 0;
+    };
+    std::vector <Object> objectsList;
+};
 
 struct MapLayer
 {
@@ -92,7 +104,7 @@ struct MapData
 	int tileWidth;
 	int tileHeight;
     std::list<TileSet*> tilesets;
-
+    std::vector<ObjectGroup*> objects;
     // L07: TODO 2: Add the info to the MapLayer Struct
     std::list<MapLayer*> layers;
 };

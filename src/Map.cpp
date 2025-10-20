@@ -176,23 +176,31 @@ bool Map::Load(std::string path, std::string fileName)
             //add the layer to the map
             mapData.layers.push_back(mapLayer);
         }
-
+        for (pugi::xml_node objNode = mapFileXML.child("map").child("objectgroup"); objNode != NULL; objNode = objNode.next_sibling("objectgroup")) {
+            ObjectGroup* objectGroup = new ObjectGroup();
+            objectGroup->id = objNode.attribute("id").as_int();
+            objectGroup->name = objNode.attribute("name").as_string();
+            for (pugi::xml_node object = objNode.child("object"); object != NULL; object = object.next_sibling("object")) {
+                ObjectGroup::Object* obj = new ObjectGroup::Object();
+                obj->id = object.attribute("id").as_int();
+                obj->x = object.attribute("x").as_int();
+                obj->y = object.attribute("y").as_int();
+                obj->width = object.attribute("width").as_int();
+                obj->height = object.attribute("height").as_int();
+                objectGroup->objectsList.push_back(*obj);
+            }
+            mapData.objects.push_back(objectGroup);
+        }
         // L08 TODO 3: Create colliders
         // L08 TODO 7: Assign collider type
         // Later you can create a function here to load and create the colliders from the map
 
         //Iterate the layer and create colliders
-        for (const auto& mapLayer : mapData.layers) {
-            if (mapLayer->name == "Collisions") {
-                for (int i = 0; i < mapData.height; i++) {
-                    for (int j = 0; j < mapData.width; j++) {
-                        int gid = mapLayer->Get(i, j);
-                        if (gid == 49) {
-                            Vector2D mapCoord = MapToWorld(i, j);
-                            PhysBody* c1 = Engine::GetInstance().physics.get()->CreateRectangle(mapCoord.getX()+ mapData.tileWidth/2, mapCoord.getY()+ mapData.tileHeight/2, mapData.tileWidth, mapData.tileHeight, STATIC);
-                            c1->ctype = ColliderType::PLATFORM;
-                        }
-                    }
+        for (const auto& mapLayer : mapData.objects) {
+            if (mapLayer->name == "Obj") { //BEWARE OF NAME
+                for (const auto& obj : mapLayer->objectsList) {
+                    PhysBody* c1 = Engine::GetInstance().physics.get()->CreateRectangle(obj.x + obj.width / 2, obj.y + obj.height / 2, obj.width, obj.height, STATIC);
+                    c1->ctype = ColliderType::PLATFORM;
                 }
             }
         }

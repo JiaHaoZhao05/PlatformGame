@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedHeight": 868,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Map.h",
+              "DocumentMoniker": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h",
+              "RelativeDocumentMoniker": "src\\Map.h",
+              "ToolTip": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h*",
+              "RelativeToolTip": "src\\Map.h*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-20T11:44:31.176Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
@@ -32,28 +45,9 @@
               "RelativeDocumentMoniker": "src\\Map.cpp",
               "ToolTip": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.cpp",
               "RelativeToolTip": "src\\Map.cpp",
-              "ViewState": "AgIAAK4AAAAAAAAAAAAQwL4AAABBAAAAAAAAAA==",
+              "ViewState": "AgIAALMAAAAAAAAAAAAmwMcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-16T20:15:56.742Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 746,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Map.h",
-              "DocumentMoniker": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h",
-              "RelativeDocumentMoniker": "src\\Map.h",
-              "ToolTip": "C:\\Users\\jiazd\\Desktop\\PlatformGame\\src\\Map.h",
-              "RelativeToolTip": "src\\Map.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-20T09:01:23.163Z",
               "EditorCaption": ""
             }
           ]
