@@ -33,10 +33,8 @@ struct Properties
                 return property;
             }
         }
-
         return nullptr;
     }
-
 };
 
 struct MapLayer
