@@ -61,6 +61,7 @@ bool Player::Update(float dt)
 	Jump();
 	ApplyPhysics();
 	Draw(dt);
+	// Camera movement Horizontal
 	float limitLeft = Engine::GetInstance().render->camera.w / 3;
 	float limiRight = Engine::GetInstance().map->GetMapSizeInPixels().getX() - Engine::GetInstance().render->camera.w * 2 / 3;
 	if (position.getX() - limitLeft > 0 && position.getX() < limiRight) {
