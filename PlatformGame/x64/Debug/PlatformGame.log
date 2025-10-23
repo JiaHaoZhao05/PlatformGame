@@ -2,64 +2,8 @@
   "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg\vcpkg.exe" install  --x-wait-for-lock --triplet "x64-windows" --vcpkg-root "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg\\" "--x-manifest-root=C:\Users\jiazd\Desktop\PlatformGame\\" "--x-install-root=C:\Users\jiazd\Desktop\PlatformGame\vcpkg_installed\x64-windows\\" 
   Detectando hash del compilador para el triplete x64-windows...
   Se encontr├│ el compilador: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
-  Se volver├ín a generar los siguientes paquetes:
-      box2d:x64-windows@3.1.1 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\81f894b99ba686f428b3d80e7769ee04f8bf548e
-      libjpeg-turbo:x64-windows@3.1.1 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\93acf52ccee5c259cfe37894c9c1f4b9c6f64c67
-      libpng:x64-windows@1.6.50 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\54b6eefbef1cb0f477c6eb54e2236badd140feea
-      pugixml:x64-windows@1.15 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\a3181de4dee35567b45611a938eb0f44f5ee016d
-      sdl3:x64-windows@3.2.22 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\ef1517d02481885e951bcb8aee2e41d7cec6c2ab
-      sdl3-image[core,jpeg,png]:x64-windows@3.2.4 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\a92c8e50efec244d45c4152ff27b0c2dd2666400
-    * vcpkg-cmake:x64-windows@2024-04-23 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\e74aa1e8f93278a8e71372f1fa08c3df420eb840
-    * vcpkg-cmake-config:x64-windows@2024-05-23 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\97a63e4bc1a17422ffe4eff71da53b4b561a7841
-    * zlib:x64-windows@1.3.1 -- C:\Users\jiazd\AppData\Local\vcpkg\registries\git-trees\3f05e04b9aededb96786a911a16193cdb711f0c9
-  Se modificar├ín paquetes adicionales (*) para completar esta operaci├│n.
-  Se restauraron 9┬ápaquetes de C:\Users\jiazd\AppData\Local\vcpkg\archives en 1.3 s. Use --debug para ver m├ís detalles.
-  Quitando 1/18 sdl3-image:x64-windows
-  Tiempo transcurrido para controlar sdl3-image:x64-windows: 22.2 ms
-  Quitando 2/18 sdl3:x64-windows
-  Tiempo transcurrido para controlar sdl3:x64-windows: 41.4 ms
-  Quitando 3/18 pugixml:x64-windows
-  Tiempo transcurrido para controlar pugixml:x64-windows: 18.1 ms
-  Quitando 4/18 libpng:x64-windows
-  Tiempo transcurrido para controlar libpng:x64-windows: 26 ms
-  Quitando 5/18 zlib:x64-windows
-  Tiempo transcurrido para controlar zlib:x64-windows: 17.7 ms
-  Quitando 6/18 libjpeg-turbo:x64-windows
-  Tiempo transcurrido para controlar libjpeg-turbo:x64-windows: 25.8 ms
-  Quitando 7/18 box2d:x64-windows
-  Tiempo transcurrido para controlar box2d:x64-windows: 19.6 ms
-  Quitando 8/18 vcpkg-cmake:x64-windows
-  Tiempo transcurrido para controlar vcpkg-cmake:x64-windows: 12.4 ms
-  Quitando 9/18 vcpkg-cmake-config:x64-windows
-  Tiempo transcurrido para controlar vcpkg-cmake-config:x64-windows: 11.4 ms
-  Instalando 10/18 vcpkg-cmake-config:x64-windows@2024-05-23...
-  Tiempo transcurrido para controlar vcpkg-cmake-config:x64-windows: 5.93 ms
-  ABI del paquete vcpkg-cmake-config:x64-windows: 0e046a4dc0252ba856356d220e8b2a06fdb66b1612b283d083fc5f6a764954e7
-  Instalando 11/18 vcpkg-cmake:x64-windows@2024-04-23...
-  Tiempo transcurrido para controlar vcpkg-cmake:x64-windows: 16.1 ms
-  ABI del paquete vcpkg-cmake:x64-windows: a31ddb07b876e8792679ddc75c10f1e2f8243f231f823178131f01c5a11f40dc
-  Instalando 12/18 box2d:x64-windows@3.1.1...
-  Tiempo transcurrido para controlar box2d:x64-windows: 15.5 ms
-  ABI del paquete box2d:x64-windows: 39241e98dc389323ed275fa4614c51802db053b6b80a5b039f3d7be1087f3708
-  Instalando 13/18 libjpeg-turbo:x64-windows@3.1.1...
-  Tiempo transcurrido para controlar libjpeg-turbo:x64-windows: 18 ms
-  ABI del paquete libjpeg-turbo:x64-windows: 2b16c261d0f29af0834327bc8002c6e6e2edd5ff8cae81af4f8a574e2c57afba
-  Instalando 14/18 zlib:x64-windows@1.3.1...
-  Tiempo transcurrido para controlar zlib:x64-windows: 19.4 ms
-  ABI del paquete zlib:x64-windows: 533aef9f6c3fa6a7a094a33384832afea50ffcb664bb4cf070c4aa86612bf04b
-  Instalando 15/18 libpng:x64-windows@1.6.50...
-  Tiempo transcurrido para controlar libpng:x64-windows: 25.3 ms
-  ABI del paquete libpng:x64-windows: e7272f8da9538550439a3f03e96f034f50bde8d61e3342db2834c1667a829d44
-  Instalando 16/18 pugixml:x64-windows@1.15...
-  Tiempo transcurrido para controlar pugixml:x64-windows: 22.4 ms
-  ABI del paquete pugixml:x64-windows: 6057da7c19605f6d5c766cd17d328bab438d5736f34cb633b3332aee95b80185
-  Instalando 17/18 sdl3:x64-windows@3.2.22...
-  Tiempo transcurrido para controlar sdl3:x64-windows: 59.2 ms
-  ABI del paquete sdl3:x64-windows: 325d628430ab4ca0fcfe7c4b90134f9918cc215e1fcd04f585f81d3a56c60a38
-  Instalando 18/18 sdl3-image[core,jpeg,png]:x64-windows@3.2.4...
-  Tiempo transcurrido para controlar sdl3-image:x64-windows: 33.7 ms
-  ABI del paquete sdl3-image:x64-windows: 91eee50a5a1b01e1e167f7aab550b70a006faca95fda9587369142d11c77294a
-  Tiempo total de instalaci├│n: 411 ms
+  Todos los paquetes solicitados est├ín instalados actualmente.
+  Tiempo total de instalaci├│n: 2.5 us
   box2d provides CMake targets:
   
     find_package(box2d CONFIG REQUIRED)
@@ -106,7 +50,6 @@
     # image loading library for Simple DirectMedia Layer
     sdl3-image
   
-  LINK : no se encontró C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\PlatformGame.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
   PlatformGame.vcxproj -> C:\Users\jiazd\Desktop\PlatformGame\x64\Debug\PlatformGame.exe
   C:\Users\jiazd\Desktop\PlatformGame\Assets\Audio\Fx\coin-collision-sound-342335.wav
   C:\Users\jiazd\Desktop\PlatformGame\Assets\Audio\Fx\retro-video-game-coin-pickup-38299.ogg
